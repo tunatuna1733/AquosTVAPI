@@ -1,0 +1,11 @@
+version: '3'
+services:
+  aquos-tv-api:
+    container_name: 'AquosTVAPI'
+    volumes:
+      - ./app:/app
+    build: .
+    ports:
+      - 8080:8080
+    env_file:
+      - .env
