@@ -2,5 +2,5 @@ fastapi
 uvicorn
 aquosRemote
 python-dotenv
-sharp_aquos_rc @ git+https://github.com/tunatuna1733/sharp_aquos_rc.git@a25fde1
+sharp_aquos_rc @ git+https://github.com/tunatuna1733/sharp_aquos_rc.git@4ce8038
 pyyaml

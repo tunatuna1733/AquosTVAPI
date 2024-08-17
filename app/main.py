@@ -111,10 +111,10 @@ async def channel(input: str = ''):
     channel_list = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']
     try:
         if input == 'up':
-            aquos.channel_up()
+            aquos.remote_button('channel_up')
             return success_response
         elif input == 'down':
-            aquos.channel_down()
+            aquos.remote_button('channel_down')
             return success_response
         elif input == 'list':
             aquos.remote_button('channels')
