@@ -120,7 +120,7 @@ async def channel(input: str = ''):
             aquos.remote_button('channels')
             return success_response
         elif input in channel_list:
-            aquos.remote_button(input)
+            aquos.remote_button('ch_' + input)
             return success_response
         else:
             return fail_response
